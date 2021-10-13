@@ -1,0 +1,1 @@
+This is my landing page project where I will be using my newly discovered html and css skills to make a sick landing page. I will be using the concepts such as the box model and flexbox in order to arrange everything nicely on the page. Hopefully this goes well and looks nice!
