@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+p{
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 23vw;
+  background-color: #1F2937;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+/* Hero */
+
+.slogan-container {
+  display: flex;
+  padding: 50px 23vw;
+  gap: 40px;
+}
+
+.slogan-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 24vw;
+}
+
+.img-placeholder {
+    background-color: lightgray;
+    display: flex;
+    flex: 1;
+}
+
+.slogan-content h1 {
+    width: 20vw;
+}
