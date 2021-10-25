@@ -44,7 +44,10 @@ a {
 .slogan-container {
   display: flex;
   padding: 50px 23vw;
+  padding-top: 80px;
+  padding-bottom: 120px;
   gap: 40px;
+  background-color: #1F2937;
 }
 
 .slogan-content {
@@ -55,11 +58,132 @@ a {
 }
 
 .img-placeholder {
-    background-color: lightgray;
+    background-color: grey;
     display: flex;
     flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .slogan-content h1 {
-    width: 20vw;
+    width: 21vw;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.slogan-content p {
+  padding-top: 4px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.slogan-content .sign-up-button {
+  /*Still have to do some work*/
+  color: white;
+  background-color: #3882F6;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 7px;
+  padding: 5px 25px;
+}
+
+.random-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-info-container h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  padding: 45px 0px;
+}
+.items {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+
+.item {
+  flex: 0;
+  text-align: center;
+}
+
+.item-image{
+  padding: 80px;
+  border: 4px solid #3882F6;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 500px;
+}
+
+.quote-container p {
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.call-to-action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 300px;
+}
+
+.content-holder {
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  width: 70vw;
+  border-radius: 10px;
+}
+
+.content-holder .content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.content-holder .content .call-to-action {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.content-holder button {
+  font-size: 18px;
+  padding: 10px 50px;
+  background-color: #3882F6;
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #1F2937;
+  color: white;
 }
